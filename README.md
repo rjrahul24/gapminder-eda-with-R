@@ -2,13 +2,13 @@
 
 This repository is a refresher of the R programming language and uses the Gapminder dataset to explore statistical analysis on R.
 
-Introduction to TidyVerse
+**Introduction to TidyVerse**
 
 The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
 
-Install the complete tidyverse with:
+1. Install the complete tidyverse with:
 
-install.packages("tidyverse")
+_install.packages("tidyverse")_
 
 More on: https://www.tidyverse.org/
 
@@ -31,12 +31,11 @@ Note: this package exists for the purpose of teaching and making code examples. 
 Install and test drive
 Install gapminder from CRAN:
 
-install.packages("gapminder")
+_install.packages("gapminder")_
 Or you can install gapminder from GitHub:
+_devtools::install_github("jennybc/gapminder")_
 
-devtools::install_github("jennybc/gapminder")
 Load it and test drive with some data aggregation and plotting:
-
-library("gapminder")
+_library("gapminder")_
 
 
